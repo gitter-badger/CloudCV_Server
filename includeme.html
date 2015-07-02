@@ -153,7 +153,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#id25"><strong>GET</strong></a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#api-current-requests-field-value"><code class="docutils literal"><span class="pre">/api/current_requests?field-value</span></code></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#api-current-requests-field-value"><code class="docutils literal"><span class="pre">/api/current_requests?field=value</span></code></a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#id26"><strong>GET</strong></a></li>
 </ul>
 </li>
@@ -319,7 +319,7 @@ The response format is JSON. Your methods will be the standard HTTP methods like
 <li><dl class="first docutils">
 <dt>Query String:</dt>
 <dd><p class="first last">for eg.
-<a class="reference external" href="http://cloudcv.org/api/users?first_name-foo&amp;last_name-bar">http://cloudcv.org/api/users?first_name-foo&amp;last_name-bar</a></p>
+<a class="reference external" href="http://cloudcv.org/api/users?first_name=foo&amp;last_name=bar">http://cloudcv.org/api/users?first_name=foo&amp;last_name=bar</a></p>
 </dd>
 </dl>
 </li>
@@ -377,7 +377,7 @@ The response format is JSON. Your methods will be the standard HTTP methods like
 </ul>
 </div></blockquote>
 <div class="highlight-javascript"><div class="highlight"><pre><span class="p">{</span>
-  <span class="s2">&quot;user&quot;</span><span class="o">:</span> <span class="s2">&quot;FOreign Key&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;user&quot;</span><span class="o">:</span> <span class="s2">&quot;Foreign Key&quot;</span><span class="p">,</span>
   <span class="s2">&quot;api_used&quot;</span><span class="o">:</span> <span class="s2">&quot;Choice Field( Python, Matlab)&quot;</span><span class="p">,</span>
   <span class="s2">&quot;job_id&quot;</span><span class="o">:</span> <span class="s2">&quot;String Field&quot;</span><span class="p">,</span>
   <span class="s2">&quot;processing_state&quot;</span><span class="o">:</span> <span class="s2">&quot;Choice Field( Start, In progress, Error, Completed)&quot;</span><span class="p">,</span>
@@ -419,7 +419,7 @@ The response format is JSON. Your methods will be the standard HTTP methods like
 <li><dl class="first docutils">
 <dt>Query String:</dt>
 <dd><p class="first last">for eg.
-<a class="reference external" href="http://cloudcv.org/api/requests?api_used-Python">http://cloudcv.org/api/requests?api_used-Python</a></p>
+<a class="reference external" href="http://cloudcv.org/api/requests?api_used=Python">http://cloudcv.org/api/requests?api_used=Python</a></p>
 </dd>
 </dl>
 </li>
@@ -513,7 +513,7 @@ The response format is JSON. Your methods will be the standard HTTP methods like
 <li><dl class="first docutils">
 <dt>Query String:</dt>
 <dd><p class="first last">for eg.
-<a class="reference external" href="http://cloudcv.org/api/groups?group_name-cloudcvteam">http://cloudcv.org/api/groups?group_name-cloudcvteam</a></p>
+<a class="reference external" href="http://cloudcv.org/api/groups?group_name=cloudcvteam">http://cloudcv.org/api/groups?group_name=cloudcvteam</a></p>
 </dd>
 </dl>
 </li>
@@ -595,7 +595,7 @@ The response format is JSON. Your methods will be the standard HTTP methods like
 </div>
 </div>
 <div class="section" id="api-current-requests-field-value">
-<h2><code class="docutils literal"><span class="pre">/api/current_requests?field-value</span></code><a class="headerlink" href="#api-current-requests-field-value" title="Permalink to this headline">¶</a></h2>
+<h2><code class="docutils literal"><span class="pre">/api/current_requests?field=value</span></code><a class="headerlink" href="#api-current-requests-field-value" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="id26">
 <h3><strong>GET</strong><a class="headerlink" href="#id26" title="Permalink to this headline">¶</a></h3>
 <blockquote>
@@ -701,7 +701,7 @@ The response format is JSON. Your methods will be the standard HTTP methods like
 <li><dl class="first docutils">
 <dt>Query String:</dt>
 <dd><p class="first last">for eg.
-<a class="reference external" href="http://cloudcv.org/api/models?file_location-/home/pydev/foobar.txt">http://cloudcv.org/api/models?file_location-/home/pydev/foobar.txt</a></p>
+<a class="reference external" href="http://cloudcv.org/api/models?file_location=/home/pydev/foobar.txt">http://cloudcv.org/api/models?file_location=/home/pydev/foobar.txt</a></p>
 </dd>
 </dl>
 </li>
@@ -793,7 +793,7 @@ The response format is JSON. Your methods will be the standard HTTP methods like
 <li><dl class="first docutils">
 <dt>Query String:</dt>
 <dd><p class="first last">for eg.
-<a class="reference external" href="http://cloudcv.org/api/images?category-decaf">http://cloudcv.org/api/images?category-decaf</a></p>
+<a class="reference external" href="http://cloudcv.org/api/images?category=decaf">http://cloudcv.org/api/images?category=decaf</a></p>
 </dd>
 </dl>
 </li>
