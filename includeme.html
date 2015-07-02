@@ -72,6 +72,153 @@
           
               <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="">CloudCV-Server</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#cloudcv-rest-api">CloudCV REST API</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#api-users"><code class="docutils literal"><span class="pre">/api/users/</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#get"><strong>GET</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#api-users-pk"><code class="docutils literal"><span class="pre">/api/users/&lt;pk&gt;/</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id1"><strong>GET</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#api-users-field-value"><code class="docutils literal"><span class="pre">/api/users?field-value</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id2"><strong>GET</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id3"><code class="docutils literal"><span class="pre">/api/users/</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#post"><strong>POST</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id4"><code class="docutils literal"><span class="pre">/api/users/&lt;pk&gt;/</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#put"><strong>PUT</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id5"><code class="docutils literal"><span class="pre">/api/users/&lt;pk&gt;/</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#delete"><strong>DELETE</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#api-requests"><code class="docutils literal"><span class="pre">/api/requests/</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id6"><strong>GET</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#api-requests-pk"><code class="docutils literal"><span class="pre">/api/requests/&lt;pk&gt;/</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id7"><strong>GET</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#api-requests-field-value"><code class="docutils literal"><span class="pre">/api/requests?field-value</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id8"><strong>GET</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id9"><code class="docutils literal"><span class="pre">/api/requests/</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id10"><strong>POST</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id11"><code class="docutils literal"><span class="pre">/api/requests/&lt;pk&gt;/</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id12"><strong>PUT</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id13"><code class="docutils literal"><span class="pre">/api/requests/&lt;pk&gt;/</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id14"><strong>DELETE</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#api-groups"><code class="docutils literal"><span class="pre">/api/groups/</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id15"><strong>GET</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#api-groups-pk"><code class="docutils literal"><span class="pre">/api/groups/&lt;pk&gt;/</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id16"><strong>GET</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#api-groups-field-value"><code class="docutils literal"><span class="pre">/api/groups?field-value</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id17"><strong>GET</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id18"><code class="docutils literal"><span class="pre">/api/groups/</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id19"><strong>POST</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id20"><code class="docutils literal"><span class="pre">/api/groups/&lt;pk&gt;/</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id21"><strong>PUT</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id22"><code class="docutils literal"><span class="pre">/api/groups/&lt;pk&gt;/</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id23"><strong>DELETE</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#api-current-requests"><code class="docutils literal"><span class="pre">/api/current_requests/</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id24"><strong>GET</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#api-current-requests-pk"><code class="docutils literal"><span class="pre">/api/current_requests/&lt;pk&gt;/</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id25"><strong>GET</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#api-current-requests-field-value"><code class="docutils literal"><span class="pre">/api/current_requests?field-value</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id26"><strong>GET</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id27"><code class="docutils literal"><span class="pre">/api/current_requests/</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id28"><strong>POST</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id29"><code class="docutils literal"><span class="pre">/api/current_requests/&lt;pk&gt;/</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id30"><strong>PUT</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id31"><code class="docutils literal"><span class="pre">/api/current_requests/&lt;pk&gt;/</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id32"><strong>DELETE</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#api-models"><code class="docutils literal"><span class="pre">/api/models/</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id33"><strong>GET</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#api-models-pk"><code class="docutils literal"><span class="pre">/api/models/&lt;pk&gt;/</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id34"><strong>GET</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#api-models-field-value"><code class="docutils literal"><span class="pre">/api/models?field-value</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id35"><strong>GET</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id36"><code class="docutils literal"><span class="pre">/api/models/</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id37"><strong>POST</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id38"><code class="docutils literal"><span class="pre">/api/models/&lt;pk&gt;/</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id39"><strong>PUT</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id40"><code class="docutils literal"><span class="pre">/api/models/&lt;pk&gt;/</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id41"><strong>DELETE</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#api-images"><code class="docutils literal"><span class="pre">/api/images/</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id42"><strong>GET</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#api-images-pk"><code class="docutils literal"><span class="pre">/api/images/&lt;pk&gt;/</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id43"><strong>GET</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#api-images-field-value"><code class="docutils literal"><span class="pre">/api/images?field-value</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id44"><strong>GET</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id45"><code class="docutils literal"><span class="pre">/api/images/</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id46"><strong>POST</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id47"><code class="docutils literal"><span class="pre">/api/images/&lt;pk&gt;/</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id48"><strong>PUT</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id49"><code class="docutils literal"><span class="pre">/api/images/&lt;pk&gt;/</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id50"><strong>DELETE</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 
           
@@ -112,6 +259,586 @@
   <div class="section" id="cloudcv-server">
 <h1>CloudCV-Server<a class="headerlink" href="#cloudcv-server" title="Permalink to this headline">¶</a></h1>
 <p>CloudCV is Large Scale Distributed Computer Vision as a Cloud Service.</p>
+</div>
+<div class="section" id="cloudcv-rest-api">
+<h1>CloudCV REST API<a class="headerlink" href="#cloudcv-rest-api" title="Permalink to this headline">¶</a></h1>
+<p><em>Generated Jun 18, 2015</em></p>
+<p>This document describes the REST API and resources provided by CloudCV.
+CloudCV&#8217;s REST APIs provide access to resources (data entities) via URI paths.</p>
+<p>To use a REST API, your application will make an HTTP request and parse the response.
+The response format is JSON. Your methods will be the standard HTTP methods like GET, PUT, POST and DELETE.</p>
+<p>Because the REST API is based on open standards, you can use any web development language to access the API.</p>
+<div class="section" id="api-users">
+<h2><code class="docutils literal"><span class="pre">/api/users/</span></code><a class="headerlink" href="#api-users" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="get">
+<h3><strong>GET</strong><a class="headerlink" href="#get" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Show all Users</li>
+<li>Returns JSON when requested</li>
+<li>Fields:</li>
+</ul>
+</div></blockquote>
+<div class="highlight-javascript"><div class="highlight"><pre><span class="p">{</span>
+  <span class="s2">&quot;first_name&quot;</span><span class="o">:</span> <span class="s2">&quot;String Field&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;last_name&quot;</span><span class="o">:</span> <span class="s2">&quot;String Field&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;username&quot;</span><span class="o">:</span> <span class="s2">&quot;string Field&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;email_id&quot;</span><span class="o">:</span> <span class="s2">&quot;Email Field&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;institution&quot;</span><span class="o">:</span> <span class="s2">&quot;String Field&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;last_login&quot;</span><span class="o">:</span> <span class="s2">&quot;DateTime Field&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;date_joined&quot;</span><span class="o">:</span> <span class="s2">&quot;DateTime Field&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;purpose&quot;</span><span class="o">:</span> <span class="s2">&quot;Choice (Education, Research, Business, Other)&quot;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="api-users-pk">
+<h2><code class="docutils literal"><span class="pre">/api/users/&lt;pk&gt;/</span></code><a class="headerlink" href="#api-users-pk" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id1">
+<h3><strong>GET</strong><a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Get a particular User Details</li>
+<li>Returns JSON when requested</li>
+<li>Argument:Primary Key(pk)</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="api-users-field-value">
+<h2><code class="docutils literal"><span class="pre">/api/users?field-value</span></code><a class="headerlink" href="#api-users-field-value" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id2">
+<h3><strong>GET</strong><a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul>
+<li><p class="first">Get User Details using query string</p>
+</li>
+<li><p class="first">Returns JSON when requested</p>
+</li>
+<li><dl class="first docutils">
+<dt>Query String:</dt>
+<dd><p class="first last">for eg.
+<a class="reference external" href="http://cloudcv.org/api/users?first_name-foo&amp;last_name-bar">http://cloudcv.org/api/users?first_name-foo&amp;last_name-bar</a></p>
+</dd>
+</dl>
+</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="id3">
+<h2><code class="docutils literal"><span class="pre">/api/users/</span></code><a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="post">
+<h3><strong>POST</strong><a class="headerlink" href="#post" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Creates a new User instance</li>
+<li>Returns JSON when requested</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="id4">
+<h2><code class="docutils literal"><span class="pre">/api/users/&lt;pk&gt;/</span></code><a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="put">
+<h3><strong>PUT</strong><a class="headerlink" href="#put" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Updates the existing User</li>
+<li>Returns JSON when requested</li>
+<li>Argument :Primary Key(pk)</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="id5">
+<h2><code class="docutils literal"><span class="pre">/api/users/&lt;pk&gt;/</span></code><a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="delete">
+<h3><strong>DELETE</strong><a class="headerlink" href="#delete" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Deletes the existing User</li>
+<li>Returns JSON when requested</li>
+<li>Argument:Primary Key(pk)</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="api-requests">
+<h2><code class="docutils literal"><span class="pre">/api/requests/</span></code><a class="headerlink" href="#api-requests" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id6">
+<h3><strong>GET</strong><a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Show all Request Job Instances</li>
+<li>Returns JSON when requested</li>
+<li>Fields:</li>
+</ul>
+</div></blockquote>
+<div class="highlight-javascript"><div class="highlight"><pre><span class="p">{</span>
+  <span class="s2">&quot;user&quot;</span><span class="o">:</span> <span class="s2">&quot;FOreign Key&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;api_used&quot;</span><span class="o">:</span> <span class="s2">&quot;Choice Field( Python, Matlab)&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;job_id&quot;</span><span class="o">:</span> <span class="s2">&quot;String Field&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;processing_state&quot;</span><span class="o">:</span> <span class="s2">&quot;Choice Field( Start, In progress, Error, Completed)&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;no_of_images&quot;</span><span class="o">:</span> <span class="s2">&quot;Integer&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;parameters&quot;</span><span class="o">:</span> <span class="s2">&quot;JSON field&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;duration&quot;</span><span class="o">:</span> <span class="s2">&quot;Time Field&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;input_source_type&quot;</span><span class="o">:</span> <span class="s2">&quot;String field&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;input_source_value&quot;</span><span class="o">:</span> <span class="s2">&quot;Integer field&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;output_source_type&quot;</span><span class="o">:</span> <span class="s2">&quot;String field&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;output_source_value&quot;</span><span class="o">:</span> <span class="s2">&quot;Integer Field&quot;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="api-requests-pk">
+<h2><code class="docutils literal"><span class="pre">/api/requests/&lt;pk&gt;/</span></code><a class="headerlink" href="#api-requests-pk" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id7">
+<h3><strong>GET</strong><a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Get a particular Request Details</li>
+<li>Returns JSON when requested</li>
+<li>Argument:Primary Key(pk)</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="api-requests-field-value">
+<h2><code class="docutils literal"><span class="pre">/api/requests?field-value</span></code><a class="headerlink" href="#api-requests-field-value" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id8">
+<h3><strong>GET</strong><a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul>
+<li><p class="first">Get Request Job Details using query string</p>
+</li>
+<li><p class="first">Returns JSON when requested</p>
+</li>
+<li><dl class="first docutils">
+<dt>Query String:</dt>
+<dd><p class="first last">for eg.
+<a class="reference external" href="http://cloudcv.org/api/requests?api_used-Python">http://cloudcv.org/api/requests?api_used-Python</a></p>
+</dd>
+</dl>
+</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="id9">
+<h2><code class="docutils literal"><span class="pre">/api/requests/</span></code><a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id10">
+<h3><strong>POST</strong><a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Creates a new Request Log instance</li>
+<li>Returns JSON when requested</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="id11">
+<h2><code class="docutils literal"><span class="pre">/api/requests/&lt;pk&gt;/</span></code><a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id12">
+<h3><strong>PUT</strong><a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Updates the existing Request Job</li>
+<li>Returns JSON when requested</li>
+<li>Argument :Primary Key(pk)</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="id13">
+<h2><code class="docutils literal"><span class="pre">/api/requests/&lt;pk&gt;/</span></code><a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id14">
+<h3><strong>DELETE</strong><a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Updates the existing Request Instance</li>
+<li>Returns JSON when requested</li>
+<li>Argument:Primary Key(pk)</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="api-groups">
+<h2><code class="docutils literal"><span class="pre">/api/groups/</span></code><a class="headerlink" href="#api-groups" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id15">
+<h3><strong>GET</strong><a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Show all Group Instances</li>
+<li>Returns JSON when requested</li>
+<li>Fields:</li>
+</ul>
+</div></blockquote>
+<div class="highlight-javascript"><div class="highlight"><pre><span class="p">{</span>
+  <span class="s2">&quot;model&quot;</span><span class="o">:</span> <span class="s2">&quot;Integer FIeld&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;group_id&quot;</span><span class="o">:</span> <span class="s2">&quot;Integer Field&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;group_name&quot;</span><span class="o">:</span> <span class="s2">&quot;String Field&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;purpose&quot;</span><span class="o">:</span> <span class="s2">&quot;Choice Field (Research, Business, Education, Other)&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;user&quot;</span><span class="o">:</span> <span class="s2">&quot;Integer Field&quot;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="api-groups-pk">
+<h2><code class="docutils literal"><span class="pre">/api/groups/&lt;pk&gt;/</span></code><a class="headerlink" href="#api-groups-pk" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id16">
+<h3><strong>GET</strong><a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Get a particular Group Details</li>
+<li>Returns JSON when requested</li>
+<li>Argument:Primary Key(pk)</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="api-groups-field-value">
+<h2><code class="docutils literal"><span class="pre">/api/groups?field-value</span></code><a class="headerlink" href="#api-groups-field-value" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id17">
+<h3><strong>GET</strong><a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul>
+<li><p class="first">Get Group Details using query string</p>
+</li>
+<li><p class="first">Returns JSON when requested</p>
+</li>
+<li><dl class="first docutils">
+<dt>Query String:</dt>
+<dd><p class="first last">for eg.
+<a class="reference external" href="http://cloudcv.org/api/groups?group_name-cloudcvteam">http://cloudcv.org/api/groups?group_name-cloudcvteam</a></p>
+</dd>
+</dl>
+</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="id18">
+<h2><code class="docutils literal"><span class="pre">/api/groups/</span></code><a class="headerlink" href="#id18" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id19">
+<h3><strong>POST</strong><a class="headerlink" href="#id19" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Creates a new Group instance</li>
+<li>Returns JSON when requested</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="id20">
+<h2><code class="docutils literal"><span class="pre">/api/groups/&lt;pk&gt;/</span></code><a class="headerlink" href="#id20" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id21">
+<h3><strong>PUT</strong><a class="headerlink" href="#id21" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Updates the existing Group</li>
+<li>Returns JSON when requested</li>
+<li>Argument :Primary Key(pk)</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="id22">
+<h2><code class="docutils literal"><span class="pre">/api/groups/&lt;pk&gt;/</span></code><a class="headerlink" href="#id22" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id23">
+<h3><strong>DELETE</strong><a class="headerlink" href="#id23" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Deletes the existing Group Instance</li>
+<li>Returns JSON when requested</li>
+<li>Argument:Primary Key(pk)</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="api-current-requests">
+<h2><code class="docutils literal"><span class="pre">/api/current_requests/</span></code><a class="headerlink" href="#api-current-requests" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id24">
+<h3><strong>GET</strong><a class="headerlink" href="#id24" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Show all Current Request Instances</li>
+<li>Returns JSON when requested</li>
+<li>Fields:</li>
+</ul>
+</div></blockquote>
+<div class="highlight-javascript"><div class="highlight"><pre><span class="p">{</span>
+  <span class="s2">&quot;user&quot;</span><span class="o">:</span> <span class="s2">&quot;Foreign Key Field&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;ram_usage&quot;</span><span class="o">:</span> <span class="s2">&quot;Positive Integer Field&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;cpu_usage&quot;</span><span class="o">:</span> <span class="s2">&quot;Positive Integer Field&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;disk_space_usage&quot;</span><span class="o">:</span> <span class="s2">&quot;Positive Integer Field&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;no_of_jobs_running&quot;</span><span class="o">:</span> <span class="s2">&quot;Positive Integer Field&quot;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="api-current-requests-pk">
+<h2><code class="docutils literal"><span class="pre">/api/current_requests/&lt;pk&gt;/</span></code><a class="headerlink" href="#api-current-requests-pk" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id25">
+<h3><strong>GET</strong><a class="headerlink" href="#id25" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Get a particular Current Request Details</li>
+<li>Returns JSON when requested</li>
+<li>Argument:Primary Key(pk)</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="api-current-requests-field-value">
+<h2><code class="docutils literal"><span class="pre">/api/current_requests?field-value</span></code><a class="headerlink" href="#api-current-requests-field-value" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id26">
+<h3><strong>GET</strong><a class="headerlink" href="#id26" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul>
+<li><p class="first">Get Current Request Details using query string</p>
+</li>
+<li><p class="first">Returns JSON when requested</p>
+</li>
+<li><dl class="first docutils">
+<dt>Query String:</dt>
+<dd><p class="first last">for eg.
+<a class="reference external" href="http://cloudcv.org/api/current_requests?cpu_usage-10">http://cloudcv.org/api/current_requests?cpu_usage-10</a></p>
+</dd>
+</dl>
+</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="id27">
+<h2><code class="docutils literal"><span class="pre">/api/current_requests/</span></code><a class="headerlink" href="#id27" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id28">
+<h3><strong>POST</strong><a class="headerlink" href="#id28" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Creates a new Current Request instance</li>
+<li>Returns JSON when requested</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="id29">
+<h2><code class="docutils literal"><span class="pre">/api/current_requests/&lt;pk&gt;/</span></code><a class="headerlink" href="#id29" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id30">
+<h3><strong>PUT</strong><a class="headerlink" href="#id30" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Updates the existing Current Request</li>
+<li>Returns JSON when requested</li>
+<li>Argument :Primary Key(pk)</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="id31">
+<h2><code class="docutils literal"><span class="pre">/api/current_requests/&lt;pk&gt;/</span></code><a class="headerlink" href="#id31" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id32">
+<h3><strong>DELETE</strong><a class="headerlink" href="#id32" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Deletes the existing Current Request Instance</li>
+<li>Returns JSON when requested</li>
+<li>Argument:Primary Key(pk)</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="api-models">
+<h2><code class="docutils literal"><span class="pre">/api/models/</span></code><a class="headerlink" href="#api-models" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id33">
+<h3><strong>GET</strong><a class="headerlink" href="#id33" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Show all ModelStorage Instances</li>
+<li>Returns JSON when requested</li>
+<li>Fields:</li>
+</ul>
+</div></blockquote>
+<div class="highlight-javascript"><div class="highlight"><pre><span class="p">{</span>
+  <span class="s2">&quot;file_location&quot;</span><span class="o">:</span> <span class="s2">&quot;String field&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;parameters&quot;</span><span class="o">:</span> <span class="s2">&quot;JSON Field&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;neural_network&quot;</span><span class="o">:</span> <span class="s2">&quot;String field&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;database_used&quot;</span><span class="o">:</span> <span class="s2">&quot;String field&quot;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="api-models-pk">
+<h2><code class="docutils literal"><span class="pre">/api/models/&lt;pk&gt;/</span></code><a class="headerlink" href="#api-models-pk" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id34">
+<h3><strong>GET</strong><a class="headerlink" href="#id34" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Get a particular ModelStorage Details</li>
+<li>Returns JSON when requested</li>
+<li>Argument:Primary Key(pk)</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="api-models-field-value">
+<h2><code class="docutils literal"><span class="pre">/api/models?field-value</span></code><a class="headerlink" href="#api-models-field-value" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id35">
+<h3><strong>GET</strong><a class="headerlink" href="#id35" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><p>Methods: <strong>GET</strong></p>
+<ul>
+<li><p class="first">Get ModelStorage Details using query string</p>
+</li>
+<li><p class="first">Returns JSON when requested</p>
+</li>
+<li><dl class="first docutils">
+<dt>Query String:</dt>
+<dd><p class="first last">for eg.
+<a class="reference external" href="http://cloudcv.org/api/models?file_location-/home/pydev/foobar.txt">http://cloudcv.org/api/models?file_location-/home/pydev/foobar.txt</a></p>
+</dd>
+</dl>
+</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="id36">
+<h2><code class="docutils literal"><span class="pre">/api/models/</span></code><a class="headerlink" href="#id36" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id37">
+<h3><strong>POST</strong><a class="headerlink" href="#id37" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Creates a new ModelStorage instance</li>
+<li>Returns JSON when requested</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="id38">
+<h2><code class="docutils literal"><span class="pre">/api/models/&lt;pk&gt;/</span></code><a class="headerlink" href="#id38" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id39">
+<h3><strong>PUT</strong><a class="headerlink" href="#id39" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Updates the existing ModelStorage</li>
+<li>Returns JSON when requested</li>
+<li>Argument :Primary Key(pk)</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="id40">
+<h2><code class="docutils literal"><span class="pre">/api/models/&lt;pk&gt;/</span></code><a class="headerlink" href="#id40" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id41">
+<h3><strong>DELETE</strong><a class="headerlink" href="#id41" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Deletes the existing ModelStorage Instance</li>
+<li>Returns JSON when requested</li>
+<li>Argument:Primary Key(pk)</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="api-images">
+<h2><code class="docutils literal"><span class="pre">/api/images/</span></code><a class="headerlink" href="#api-images" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id42">
+<h3><strong>GET</strong><a class="headerlink" href="#id42" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Show all Image Instances</li>
+<li>Returns JSON when requested</li>
+<li>Fields:</li>
+</ul>
+</div></blockquote>
+<div class="highlight-javascript"><div class="highlight"><pre><span class="p">{</span>
+  <span class="s2">&quot;user&quot;</span><span class="o">:</span> <span class="s2">&quot;Foreign Key field&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;category&quot;</span><span class="o">:</span> <span class="s2">&quot;String Category&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;url&quot;</span><span class="o">:</span> <span class="s2">&quot;String field&quot;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="api-images-pk">
+<h2><code class="docutils literal"><span class="pre">/api/images/&lt;pk&gt;/</span></code><a class="headerlink" href="#api-images-pk" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id43">
+<h3><strong>GET</strong><a class="headerlink" href="#id43" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Get a particular Image Details</li>
+<li>Returns JSON when requested</li>
+<li>Argument:Primary Key(pk)</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="api-images-field-value">
+<h2><code class="docutils literal"><span class="pre">/api/images?field-value</span></code><a class="headerlink" href="#api-images-field-value" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id44">
+<h3><strong>GET</strong><a class="headerlink" href="#id44" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul>
+<li><p class="first">Get Image Details using query string</p>
+</li>
+<li><p class="first">Returns JSON when requested</p>
+</li>
+<li><dl class="first docutils">
+<dt>Query String:</dt>
+<dd><p class="first last">for eg.
+<a class="reference external" href="http://cloudcv.org/api/images?category-decaf">http://cloudcv.org/api/images?category-decaf</a></p>
+</dd>
+</dl>
+</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="id45">
+<h2><code class="docutils literal"><span class="pre">/api/images/</span></code><a class="headerlink" href="#id45" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id46">
+<h3><strong>POST</strong><a class="headerlink" href="#id46" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Creates a new Image instance</li>
+<li>Returns JSON when requested</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="id47">
+<h2><code class="docutils literal"><span class="pre">/api/images/&lt;pk&gt;/</span></code><a class="headerlink" href="#id47" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id48">
+<h3><strong>PUT</strong><a class="headerlink" href="#id48" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Updates the existing Image</li>
+<li>Returns JSON when requested</li>
+<li>Argument :Primary Key(pk)</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="id49">
+<h2><code class="docutils literal"><span class="pre">/api/images/&lt;pk&gt;/</span></code><a class="headerlink" href="#id49" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id50">
+<h3><strong>DELETE</strong><a class="headerlink" href="#id50" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Deletes the existing Image Instance</li>
+<li>Returns JSON when requested</li>
+<li>Argument:Primary Key(pk)</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
 </div>
 
 
